@@ -2,7 +2,7 @@
 
 body {
     color: var(--text-main);
-    background: var(--dark-gray);
+    background: var(--bg-main);
 
     font-family: Helvetica;
     font-size: 14pt;
@@ -29,11 +29,31 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 2pt ;
+    border-bottom: 2px solid var(--text-main);
 }
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
+button {
+    
+    background-color: var(--bg-main);
+    border-color: var(--text-main);
+    color: var(--text-main);
+    
+    border: solid; 
+    border-width: 2px;
+    border-radius: 6px;
+    padding: 8px;
+
+    appearance: none;
+}
+
+button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+button:active {
+    background-color: var(--text-main);
+    color: var(--bg-main);
 }
 
 li {
@@ -41,5 +61,5 @@ li {
 }
 
 #greeting {
-  color: darkseagreen;
+  color: var(--accent);
 }
