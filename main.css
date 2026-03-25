@@ -1,0 +1,45 @@
+@import "colors.css";
+
+body {
+    color: var(--text-main);
+    background: var(--dark-gray);
+
+    font-family: Helvetica;
+    font-size: 14pt;
+
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+
+
+    transition: color 0.3s, background 0.3s;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+#top-bar {
+    padding: 10pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2pt ;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style: circle;
+}
+
+#greeting {
+  color: darkseagreen;
+}

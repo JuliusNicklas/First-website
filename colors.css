@@ -1,0 +1,21 @@
+
+
+:root {
+    --light-gray: gainsboro;
+    --dark-gray: #1d282a;
+    --light-cyan: #1ccdcd;
+    --dark-cyan: #117070;
+    --white: #FFFFFF;
+
+    --bg-main: var(--dark-gray);
+    --text-main: var(--light-gray);
+    --accent: var(--light-cyan);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-main: var(--light-gray);
+        --text-main: var(--dark-gray);
+        --accent: var(--dark-cyan);
+    }
+}
