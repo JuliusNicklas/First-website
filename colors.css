@@ -1,12 +1,18 @@
 
 
 :root {
+
+    /* Palette */
     --light-gray: gainsboro;
     --dark-gray: #1d282a;
     --light-cyan: #1ccdcd;
     --dark-cyan: #068585;
     --white: #FFFFFF;
 
+    /* Universal */
+    --link-color: #0055ff;
+
+    /* Dark theme  */
     --bg-main: var(--dark-gray);
     --text-main: var(--light-gray);
     --accent: var(--light-cyan);
