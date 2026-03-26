@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julius Gallery</title>
     <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script> 
+        $(function(){
+            $("#includedBar").load("topbar.html"); 
+        });
+    </script> 
 </head>
 <body>
 
-    <nav id="top-bar">
-        <button>Höhö</button>
-        <button>hoho</button>
-    </nav>    
-    
+    <div id="includedBar"></div>
 
     <main>
         <div id="gallery">
